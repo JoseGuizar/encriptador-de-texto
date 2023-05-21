@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="personal.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Changa:wght@500&family=Fira+Code&display=swap" rel="stylesheet">
+        <title>Encriptador de texto - Diseño personal</title>
+    </head>
+    <body>
+        <header>
+            <div class="header-container">
+                <a href="index.html"><input type="button" value="◀" class="boton-reg" id="boton-reg"></a>
+                <h1>Encriptador de texto</h1>
+                <img src="img/logo-astronauta.png" alt="logo" class="header-logo">
+            </div>
+        </header>
+        <main>
+            <div class="container">
+                <div class="container-a" id="container-a">
+                    <div class="panel">
+                        <h2>Empezar a encriptar</h2>
+                        <img src="img/astronauta-flotando.gif" alt="Astronauta flotando" class="astronauta-gif">
+                        <div>
+                            <input type="button" value="Empezar" class="boton-on" id="boton-on">
+                        </div>
+                    </div>
+                </div>
+                <div class="container-b" id="container-b">
+                    <div class="container-1">
+                        <div class="area-de-texto">
+                            <textarea id="encriptador-in" class="encriptador-in" placeholder ="Ingrese el mensaje aqui" cols="30" rows="18" autofocus></textarea>
+                        </div>
+                        <div class="advice">
+                            <p>⨷ Solo letras minusculas y sin acentos</p>
+                        </div>
+                        <div class="botones">
+                            <input type="button" value="Encriptar" id="boton-en" class="boton-en">
+                            <input type="button" value="Desencriptar" id="boton-des" class="boton-des">
+                            <input type="button" value="Limpiar" id="boton-lim" class="boton-lim">
+                        </div>
+                    </div>
+                    <div class="container-2">
+                        <div class="precontainer-2" id="precontainer-2">
+                            <img src="img/nave.gif" alt="Astronauta">
+                            <h3>Ninguna transmisión recibida</h3>
+                            <p>Ingrese el texto que desea encriptar o desencriptar</p>
+                        </div>
+                        <div class="postcontainer-2" id="postcontainer-2">
+                            <textarea id="encriptador-out" class="encriptador-out" cols="30" rows="25" readonly></textarea>
+                            <input type="button" value="Copiar" id="boton-cop" class="boton-cop">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <img src="img/logo-astronauta.png" alt="logo" class="header-pie">
+            <p>Hecho por Jose Guizar</p>
+        </footer>
+        <script src="personal.js"></script>
+    </body>
+</html>

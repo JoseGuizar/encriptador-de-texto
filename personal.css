@@ -1,0 +1,267 @@
+/* fonts */
+
+body {
+
+    font-family: 'Changa', sans-serif;
+}
+
+/* Diseño del header */
+
+.header-container {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(25, 0, 35);
+    padding: 4px;
+}
+
+.boton-reg {
+
+    width: 45px;
+    padding: 15% 0;
+    background-color: rgba(255, 0, 119, 0.601);
+    border: none;
+    box-shadow: 1px 1px 2px rgba(83, 0, 184, 0.773);
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+}
+
+.header-container h1 {
+
+    color: white;
+    font-size: 2.5em;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+.header-logo, .header-pie {
+
+    width: 45px;
+}
+
+/* Diseño del cuerpo */
+
+.container {
+
+    display: flex;
+    justify-content: center;
+    align-items: none;
+    width: 100%;
+    height: 87vh;
+    background: url("img/fondo-esspacio.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.container-a {
+
+    width: 50%;
+    padding: 2em 0;
+    text-align: center;
+    display: block;
+}
+
+.container-a h2 {
+
+    font-size: 3em;
+    color: white;
+    text-shadow: 5px 5px 1px rgb(25, 0, 35);
+}
+
+.astronauta-gif {
+
+    width: 70%;
+    margin: 2rem 0;
+}
+
+.boton-on {
+
+    width: 15%;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: white;
+    border:  5px solid white;
+    border-radius: 35px;
+    box-shadow: 5px 5px 10px 4px rgb(25, 0, 35);
+    text-shadow: 2px 2px rgb(25, 0, 35);
+    background-color: transparent;
+    padding: 1em 0;
+    cursor: pointer;
+}
+
+.boton-on:hover {
+
+    border-color: blueviolet;
+    box-shadow: 5px 5px 10px 4px rgb(25, 0, 35);
+}
+
+
+
+.container-b {
+
+    width: 100%;
+    display: none;
+}
+
+.container-1 {
+
+    width: 60%;
+    padding-top: 4em;
+}
+
+.area-de-texto, .botones {
+
+    text-align: center;
+}
+
+.encriptador-in {
+
+    width: 65%;
+    resize: none;
+    padding: 5%;
+    border: none;
+    border-radius: 25px;
+    background-color: rgba(255, 0, 119, 0.601);
+    color: white;
+    font-weight: bolder;
+    font-family: 'Fira Code', monospace;
+}
+
+.encriptador-in::placeholder {
+
+    color: white;
+    letter-spacing: 5px;
+    font-weight: bold;
+}
+
+.encriptador-in:focus {
+
+    border: none;
+    outline: none;
+}
+
+.advice {
+
+    position: relative;
+    left: 12%;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-shadow: 2px 2px darkviolet;
+    margin: 1.5em 0;
+}
+
+.boton-en, .boton-des, .boton-lim {
+
+    width: 20%;
+    padding: 2% 0;
+    border-width: 0;
+    border-radius: 40px;
+    background-color: rgba(255, 0, 119, 0.601);
+    font-size: large;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+.boton-des, .boton-lim {
+
+    margin-left: 5%;
+}
+
+.container-2 {
+
+    width: 40%;
+    display: flex;
+}
+
+.precontainer-2 {
+
+    width: 65%;
+    margin: 5% 0;
+    padding: 2%;
+    text-align: center;
+    background-color: rgba(255, 0, 119, 0.601);
+    border-radius: 25px;
+}
+
+.precontainer-2 img {
+
+    width: 80%;
+}
+
+.precontainer-2 h3 {
+
+    padding: 0 10%;
+    font-size: 2em;
+    color: white;
+}
+
+.precontainer-2 p {
+
+    padding: 10% 10% 0 10%;
+    color: white;
+}
+
+.postcontainer-2 {
+
+    display: none;
+    width: 65%;
+    margin: 5% 0;
+    padding: 2%;
+    text-align: center;
+    background-color: rgba(255, 0, 119, 0.601);
+    border-radius: 25px;
+}
+
+.encriptador-out {
+
+    width: 85%;
+    resize: none;
+    border: none;
+    padding: 5%;
+    background-color: transparent;
+    color: white;
+}
+
+.boton-cop {
+
+    width: 50%;
+    margin-top: 16%;
+    padding: 5% 0;
+    background-color: rgba(255, 255, 255, 0);
+    border: 2px solid white;
+    border-radius: 40px;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+.encriptador-out:active, .encriptador-out:focus {
+
+    border: none;
+    outline: none;
+}
+
+/* footer */
+
+footer {
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(25, 0, 35);
+}
+
+footer p {
+
+    color: white;
+}
+
+.header-pie {
+
+    display: inline;
+}

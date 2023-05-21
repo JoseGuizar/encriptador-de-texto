@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Encriptador de Texto - Alura</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body class="font-1">
+        <header>
+            <h1>Jose Guizar</h1>
+            <span class="menu-icon">☰</span>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Challenge</a></li>
+                    <li><a href="personal.html">Personal</a></li>
+                    <li><a href="https://www.linkedin.com/in/joseguizar-dev/">Linkedin</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <div class="principal">
+                <div class="container-1">
+                    <div class="cuerpo-titulo">
+                        <div class="div-logo">
+                            <img src="img/logo-alura.png" alt="Logo">
+                        </div>
+                        <div class="div-tit">
+                            <h2>Encriptador de texto</h2>
+                        </div>
+                    </div>
+                    <div class="area-de-texto">
+                        <textarea id="encriptador-in" cols="80" rows="12" class="encriptador-in" placeholder="Ingrese el texto"></textarea>
+                        <p>⨷ Solo letras minusculas y sin acentos</p>
+                    </div>
+                    <div class="botones">
+                        <input type="button" value="Encriptar" class="boton-en" id="boton-en">
+                        <input type="button" value="Desencriptar" class="boton-des" id="boton-des">
+                    </div>
+                </div>
+                <div class="container-2">
+                    <div class="encriptador-out-div1" id="encriptador-out-div1">
+                        <img src="img/Muñeco.png" alt="Muñeco buscando información">
+                        <h3>Ningun mensaje fue encontrado</h3>
+                        <p>Ingrese el texto que desea encriptar o desencriptar</p>
+                    </div>
+                    <div class="encriptador-out-div2" id="encriptador-out-div2">
+                        <textarea id="mensaje-encriptado" class="mensaje-encriptado" cols="30" rows="30" readonly></textarea>
+                        <input type="button" value="Copiar" class="boton-cop" id="boton-cop">
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer></footer>
+
+        <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+        <script src="index.js"></script>
+    </body>
+</html>
